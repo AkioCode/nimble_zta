@@ -6,7 +6,7 @@ defmodule NimbleZTA.CloudflareTest do
   alias NimbleZTA.Cloudflare
 
   @fields [:id, :name, :email]
-  @name Context.Test.Claudflare
+  @name Context.Test.Cloudflare
 
   def router(conn, _opts) do
     case conn.request_path do
